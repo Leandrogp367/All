@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Test FRONT</h2>
+
+<p>HTML/CSS/js</p>
+
+<p id="demo"></p>
+<p id="dem"></p>
+
+<style>
+body {
+	background-color : black
+}
+h2 {
+	color: red;
+    text-align: center;
+}
+p {
+	color: white;
+    text-align: center;
+}
+</style>
+
+<script>
+var txt = "abcdefghijklm";
+var pos = txt.indexOf("a");
+var pos2 = txt.indexOf("h");
+document.getElementById("demo").innerHTML = pos;
+document.getElementById("dem").innerHTML = pos2;
+</script>
+
+</body>
+</html>
